@@ -81,6 +81,12 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    transition: transform 0.3s ease;
+}
+
+.hero-text:hover {
+    transform: scale(1.05);
 }
 
 .date, .title, .description {
@@ -129,6 +135,13 @@ a {
 }
 
 /* images */
+.blog-section img {
+    transition: transform 0.3s ease;
+}
+
+.blog-section img:hover {
+    transform: scale(1.05);
+}
 
 
 /* footer */
